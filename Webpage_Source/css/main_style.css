@@ -1,0 +1,449 @@
+/*
+ Main theme colors
+    green : #30FE8F
+    darkblue : #37033C
+    red : #FD0057
+    lightblue : #1DF4FF
+    yellow : #EEFB36
+*/
+
+/* 최상위 메뉴 - 왼쪽 */
+#upper_section {
+  background-color: #37033C;
+  height: auto;
+  width:99%;
+  position: absolute;
+  top:0;
+  left:8;
+}
+/* 최상위 메뉴탭 - 오른쪽 */
+#upper_bar {
+  text-align: right;
+  width:95%;
+  position: absolute;
+  top:0;
+  right:0;
+}
+li.upper_tap {
+  display: inline;
+  text-decoration: none;
+  text-align: right;
+  margin-right: 15px;
+  color: #30FE8F;
+}
+li.upper_tap:hover {
+  font-weight: bold;
+  text-decoration: none;
+}
+li.upper_tap:link {
+  text-decoration: none;
+  color : white;
+}
+.upper_button {
+  text-decoration: none;
+}
+span#maintitle {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* header */
+header {
+  width: 99%;
+  height: 250px;
+}
+
+/* Nav - 메뉴 탭들 */
+nav {
+  min-width: 200px;
+  border-top: 1px solid #37033C;
+  border-bottom: 3px solid #FD0057;
+  background-color: #37033C;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+/* Nav - 메뉴 탭들 - 링크 관리 */
+.menu_link {
+  text-decoration: none;
+}
+/* Nav - 메뉴 탭들 - 버튼 디자인 관리  */
+li.menu_tap {
+  display: inline;
+  color : white;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  padding: 3px;
+  background-color: #37033C;
+  height: 50px;
+  width: auto;
+  text-decoration: none;
+}
+li.menu_tap:hover {
+  background-color: #FD0057;
+  color : white;
+  text-decoration: none;
+
+}
+li.menu_tap:link {
+  text-decoration: none;
+  color : white;
+}
+
+/* Aside 전체 관리 */
+aside {
+  float: left;
+  width: auto;
+  height: 1000px;
+  display: table-cell;
+  margin-right: 5px;
+  background-color: #37033C;
+  min-width: 200px;
+}
+#aside_table{
+  width: 100%;
+}
+.aside_tap{
+  text-align: center;
+  margin-bottom: 2px;
+  padding: 2px;
+  list-style:square;
+}
+.aside_tap:hover {
+  text-decoration: none;
+  background-color: #EEFB36;
+}
+.aside_tap:link {
+  text-decoration: none;
+  background-color: #FD0057;
+}
+
+.aside_tap_in {
+  color : white;
+  text-decoration: none;
+}
+#ranking_table {
+  color:white;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #FD0057;
+  padding:5px;
+  width:auto;
+  margin: 10px 10px 10px 10px;
+}
+#moreview_link {
+  color: white;
+  text-align: right;
+  text-decoration: none;
+}
+/* section 정보 관리 */
+section {
+  background-color: white;
+  float:left;
+  display: table-cell;
+  width: 10%;
+  min-width: 20px;
+  vertical-align: bottom;
+}
+section#round_info {
+  background-color: #EEFB36;
+  border: 2px solid #EEFB36;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+}
+section#round_info:hover {
+    background-color: #FFFF00;
+}
+/* 로그인은.. 흠.. 어디에 넣지? */
+section#login_infomation {
+  background-color: #37033C;
+  border: 2px solid #EEFB36;
+  margin:10px;
+  display: table-cell;
+  width: 200px;
+  height:270px;
+}
+section.MyPage_basic {
+  border: 2px solid #EEFB36;
+  background-color: white;
+  height: 800px;
+  width: 70%;
+  margin: 10px;
+  display: table-cell;
+  text-align: center;;
+}
+
+section#ranking_information {
+  background-color: #30FE8F;
+  border: 2px solid #30FE8F;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+  margin:10px;
+}
+.ranking_attr {
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #FD0057;
+  border: 1px solid #FD0057;
+}
+.ranking_td {
+  padding: 5px;
+  color: #37033C;
+  background-color: white;
+}
+section#ranking_information:hover{
+    background-color: #20FE20;
+}
+section#match_highlight_infomation {
+  background-color: #1DF4FF;
+  border: 2px solid #1DF4FF;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+}
+section#match_highlight_infomation:hover {
+  background-color: #3DDDFF;
+}
+section#weekly_player_infomation {
+  background-color: #FD0057;
+  border: 2px solid #FD0057;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+  line-height: 20px;
+  color: white;
+}
+section#weekly_player_infomation:hover {
+background-color: #FD0000;
+}
+section#weekly_posting{
+  background-color: white;
+  border: 2px solid #EEFB36;
+  margin:10px;
+  display: table-cell;
+  width: 564px;
+  height:270px;
+}
+section#contents {
+  border: 2px solid #30FE8F;
+  margin:10px;
+  display: table-cell;
+  float:left;
+  width:858px;
+  max-width: 98%;
+  height: 1740px;
+
+}
+section#weekly_video {
+  border: 2px solid #1DF4FF;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+}
+
+section#fifaonline4 {
+  border: 2px solid #EEFB36;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+}
+
+section#EPL_link {
+  border: 2px solid #30FE8F;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:270px;
+}
+
+section.mini_div {
+  border: 2px solid #1DF4FF;
+  margin:10px;
+  display: table-cell;
+  width: 270px;
+  height:123px;
+}
+
+section#extra {
+  border: 2px solid #FD0057;
+  width:858px;
+  max-width: 98%;
+  display:table-cell;
+  margin:10px;
+  height:829px;
+  background-image: url('../image/etc/frame_photo.png');
+}
+
+
+#main_frame {
+  border: 2px solid #FD0057;
+  margin:10px;
+  border: none;
+  float: right;
+  width:100%;
+}
+
+footer {
+  background-color: black;
+  color : #999999;
+  text-align: center;
+  clear: both;
+  height: auto;
+}
+div#quickmenu {
+  position:fixed;
+  background-color: white;
+  top: 500px;
+  right: 10px;
+  border: 1px solid black;
+}
+#quickmenu_table {
+  border-collapse: collapse;
+  margin: 3px;
+}
+.quickmenu_table_cell {
+    text-align: center;
+    padding: 5px;
+}
+a.quickmenu_tap {
+  color: #37033C;
+  text-decoration: none;
+}
+.quickmenu_table_cell:hover {
+  text-decoration: none;
+  background-color: #FD0057;
+}
+
+
+/* 득점 선수 카드*/
+section#Goal_div {
+  border: 2px solid #30FE8F;
+  margin: 10px;
+  display: table-cell;
+  width: 47%;
+  min-width: 440px;
+  height: auto;
+}
+section.score_card_1st {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 420px;
+  height:120px;
+  line-height: 100px;
+  float: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+section.score_card_2nd {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 330px;
+  height:80px;
+  line-height: 90px;
+  float: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+section.score_card_normal {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 270px;
+  height:45px;
+  line-height: 50px;
+  float: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+
+/* 어시스트 선수 카드*/
+section.assist_card_1st {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 420px;
+  height:120px;
+  line-height: 100px;
+  float: left;
+  text-align: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+section.assist_card_2nd {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 300px;
+  height:80px;
+  line-height: 90px;
+  float: left;
+  text-align: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+section.assist_card_normal {
+  border-bottom: 2px solid #30FE8F;
+  margin:10px;
+  clear: both;
+  width: 230px;
+  height:45px;
+  line-height: 50px;
+  float: left;
+  text-align: right;
+  animation: 5s bottom_bar_effect;
+  animation-iteration-count: 1;
+}
+@keyframes bottom_bar_effect {
+0% {border-bottom: 2px solid white;}
+100% {border-bottom: 2px solid #30FE8F;}
+}
+
+section.MyPage_basic {
+  height: 500px;
+}
+
+.sitemap {
+  margin: 20px;
+  height: 30px;
+}
+a.sitemap_link {
+  color: #999999;
+  text-align: center;
+  text-decoration: none;
+}
+div#Copyrights {
+  min-height: 170px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+}
+#footer_td {
+  text-align: center;
+}
+
+
+
+span#fontcolor01{
+  color: #EEFB36;
+}
+span#fontcolor02{
+  color: #FD0057;
+}
+span#fontcolor03{
+  color: #30FE8F;
+}
+span#fontcolor04{
+  color: #1DF4FF;
+}
